@@ -1,0 +1,77 @@
+#body {
+    background-color: black;
+    margin: 10px;
+    padding: 0;
+}
+
+.main-h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.info input {
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.info label {
+    color: white;
+}
+
+.info input::placeholder {
+    font-size: 12px;
+}
+
+.payment-method {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.payment-method input {
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.payment-method label {
+    color: white;
+}
+
+.payment-method select {
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+    font-size: 1rem;
+}
+
+#submit-btn {
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgb(2, 195, 31);
+}
+
+#btn {
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+}

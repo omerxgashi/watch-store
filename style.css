@@ -1,0 +1,160 @@
+#body { 
+    background-color: black;
+    overflow-y: auto;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+   
+}
+
+#main-text {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 110px;
+    text-wrap: wrap;
+    
+}
+
+#main-text:hover{
+    text-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+
+.nav_container {
+    display: flex;
+    position: fixed;
+    top: 5%;
+    color: white;
+    min-width: auto;
+    max-width: 768px;
+}
+
+.nav_logo {
+    text-decoration: none;
+    color: white;
+    margin-left: 5em;
+    
+}
+
+.nav_container i {
+    padding-left: 5px;
+}
+
+.nav_container i:hover{
+    color: rgb(69, 62, 62);
+    cursor: pointer;
+}
+
+.nav_logo:hover {
+    color: rgb(69, 62, 62);
+}
+
+
+.nav_list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: fixed;
+    right: 40%;
+    left: 40%;
+    gap: 3em;
+} 
+
+.nav_item {
+    margin-right: 20px;
+    text-decoration: none;
+}
+.nav_item a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_item a:hover {
+    border: none;
+    color: rgb(69, 62, 62);
+}
+
+.nav_social {
+    position: fixed;
+    right: 0;
+    
+}
+.nav_social a {
+    color: white;
+    text-decoration: none;
+    margin-right: 3em;
+
+}
+
+
+.watch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.image {
+    margin-top: 100px;
+    height: 80vh;
+    display: block;
+    width: auto;
+}
+
+
+.vid {
+    border: none;
+    height: 350px;
+    width: 500px;
+    margin-top: 10px;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 70vh;
+    
+}
+
+.watch-info {
+    color: rgb(208, 205, 205);
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.watch-info .btn {
+    color: white;
+    box-shadow: 0 0 5px white;
+}
+
+.btn {
+    margin-top: 10px;
+    color: white;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 2px; 
+    
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px gray;
+    
+}
+#last-p {
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
