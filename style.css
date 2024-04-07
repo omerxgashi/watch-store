@@ -29,18 +29,35 @@ main {
 
 .nav_container {
     display: flex;
-    position: fixed;
-    top: 5%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     color: white;
     min-width: auto;
     max-width: 768px;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .nav_container {
+
+        align-items: center; 
+    }
+    
+    .nav_list {
+        
+        gap: 1em;
+    }
 }
 
 .nav_logo {
     text-decoration: none;
     color: white;
     margin-left: 5em;
-    
 }
 
 .nav_container i {
@@ -56,44 +73,36 @@ main {
     color: rgb(69, 62, 62);
 }
 
-
 .nav_list {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
-    position: fixed;
-    right: 40%;
-    left: 40%;
+    position: absolute;
+    right: 0px;
+    left: 300px;
     gap: 3em;
 } 
 
 .nav_item {
-    margin-right: 20px;
     text-decoration: none;
+    padding: 0 10px;
 }
 .nav_item a {
     text-decoration: none;
     color: white;
 }
 
+@media screen and (max-width: 768px) {
+    .nav_list {
+        display: none;
+    }
+}
+
 .nav_item a:hover {
     border: none;
     color: rgb(69, 62, 62);
 }
-
-.nav_social {
-    position: fixed;
-    right: 0;
-    
-}
-.nav_social a {
-    color: white;
-    text-decoration: none;
-    margin-right: 3em;
-
-}
-
 
 .watch {
     display: flex;
@@ -109,7 +118,6 @@ main {
     display: block;
     width: auto;
 }
-
 
 .vid {
     border: none;
@@ -151,6 +159,7 @@ main {
     box-shadow: 0 0 10px gray;
     
 }
+
 #last-p {
     color: white;
     font-size: 10px;
